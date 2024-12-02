@@ -23,7 +23,7 @@ Install the dependencies using pip:
 
 ```bash
 pip install python-dotenv pyngrok pinata-python flask
-
+```
 
 ## API Endpoints
 
@@ -39,7 +39,7 @@ pip install python-dotenv pyngrok pinata-python flask
     "message": "Blockchain is running with ngrok",
     "total_blocks": 1
 }
-
+```
 ### 2. Mine a Block
 
 - **URL**: `/mine_block/<sender>/<recipient>/<amount>`
@@ -73,3 +73,4 @@ pip install python-dotenv pyngrok pinata-python flask
     },
     "total_blocks": 2
 }
+```
